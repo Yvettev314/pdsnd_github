@@ -211,7 +211,7 @@ def raw_data(df):
     print('*'*120)
         
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
-# Code that starts program 
+# Code that starts program and calls the functions in order 
 def main():
     while True:
         city, month, day = get_filters()
