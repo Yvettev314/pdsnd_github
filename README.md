@@ -4,7 +4,7 @@
 2021/03/31 17:44
 
 ### Project Title
-AngloAmerican Citizen Data Analyst: Version Control
+Anglo American Citizen Data Analyst: Version Control (Project 3)
 
 ### Description
 Project 3 - Use your local git repository and your GitHub repository. Fork a repository, work on files, stage files and commit them to GitHub. You will also demonstrate how to hide files using .gitignore files.
