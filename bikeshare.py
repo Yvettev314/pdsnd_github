@@ -10,14 +10,6 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 # Defining a function to get the filters
 
 def get_filters():
-    """
-    Asks user to specify a city, month, and day to analyze.
-
-    Returns:
-        (str) city - name of the city to analyze
-        (str) month - name of the month to filter by, or "all" to apply no month filter
-        (str) day - name of the day of week to filter by, or "all" to apply no day filter
-    """
     welcome_string = """ Hello! Let\'s explore some US bikeshare data! 
  
   |* * * * * * OOOOOOOOOOOO|
@@ -66,16 +58,6 @@ def get_filters():
 # Defining a function to load the data
     
 def load_data(city, month, day):
-    """
-    Loads data for the specified city and filters by month and day if applicable.
-
-    Args:
-        (str) city - name of the city to analyze
-        (str) month - name of the month to filter by, or "all" to apply no month filter
-        (str) day - name of the day of week to filter by, or "all" to apply no day filter
-    Returns:
-        df - Pandas DataFrame containing city data filtered by month and day
-    """
 
     # load data file into a dataframe
     df = pd.read_csv(CITY_DATA[city])
@@ -229,7 +211,7 @@ def raw_data(df):
     print('*'*120)
         
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
-    
+# Code that starts program and calls all other functions created    
 def main():
     while True:
         city, month, day = get_filters()
